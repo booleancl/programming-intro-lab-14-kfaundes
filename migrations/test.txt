@@ -1,0 +1,14 @@
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/migrations/0_createDatabase.sql
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/migrations/1_createUsersTable.sql
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/migrations/2_createPostsTable.sql
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/migrations/3_createComments.sql
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/migrations/4_seedData.sql
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/queries/5_posts-with-users.sql
+/COPY users(email) FROM "C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/users.csv HEADER;
+/COPY post FROM "C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/posts.csv HEADER,
+/COPY comentario FROM "C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/comentarios.csv HEADER;
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/users.csv
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/posts.csv
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/data/comentarios.csv
+C:/Users/kfaun/intro_dev/programming-intro-lab-14-kfaundes/queries/6_comments-with-users
+
